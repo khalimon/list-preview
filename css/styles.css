@@ -1,0 +1,67 @@
+/*General styles*/
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #98fb98;
+    margin: 0;
+   
+     }
+
+.background {
+    display: inline-block;
+    height: 280px;
+    width: 280px;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+    position:relative;
+    text-align: center;
+    left: 6%;
+      }
+
+#bg1 {
+    background-image: url('../img/product-1.jpg');
+}
+
+#bg2 {
+    background-image: url('../img/product-2.jpg');
+}
+
+#bg3 {
+    background-image: url('../img/product-3.jpg');
+}
+
+#bg4 {
+    background-image: url('../img/product-4.jpg');
+}
+
+.background .mask {
+    height: 100%;
+    background-color: #ff6f00;
+    opacity: 0;
+    transition: all 0.7s;
+    padding: 10px;
+    
+}
+.background:hover .mask {
+    opacity: 0.7;
+}
+.mask a{
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    top: 50%;
+    position: relative;
+}
+.background:hover .mask a{
+    opacity: 1;
+}
+
+
+
+
+
+
