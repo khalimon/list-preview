@@ -40,14 +40,14 @@ body {
 
 .background .mask {
     height: 100%;
-    background-color: #ff6f00;
+    background-color: rgba(255, 111, 0, 0.6);
     opacity: 0;
     transition: all 0.7s;
     padding: 10px;
     
 }
 .background:hover .mask {
-    opacity: 0.7;
+    opacity: 1;
 }
 .mask a{
     text-align: center;
@@ -55,9 +55,6 @@ body {
     width: 100%;
     top: 50%;
     position: relative;
-}
-.background:hover .mask a{
-    opacity: 1;
 }
 
 
